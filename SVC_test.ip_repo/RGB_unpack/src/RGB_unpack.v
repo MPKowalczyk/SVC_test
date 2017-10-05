@@ -38,8 +38,7 @@ module RGB_unpack(
     
 	assign out_R = in_RGB[23:16];
 	assign out_G = in_RGB[7:0];
-	assign out_B = in_RGB[15:8];
-	
+	assign out_B = in_RGB[15:8];	
 	assign out_HSync = in_HSync;
 	assign out_VSync = in_VSync;
 	assign out_DE = in_DE;
