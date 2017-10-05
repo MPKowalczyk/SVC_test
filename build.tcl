@@ -197,7 +197,7 @@ set_property -name "steps.write_bitstream.args.verbose" -value "0" -objects $obj
 current_run -implementation [get_runs impl_1]
 
 # Create block design
-source $origin_dir/SVC_test.srcs/sources_1/bd/main_blokc_design.tcl
+source $origin_dir/SVC_test.srcs/sources_1/bd/main_block_design.tcl
 
 # Generate the wrapper
 set design_name [get_bd_design]
